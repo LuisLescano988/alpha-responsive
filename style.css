@@ -1,0 +1,45 @@
+*,
+ ::after,
+ ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    height: 17px;
+    width:fit-content;
+    margin-right: 36px;
+}
+
+.ul-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar{
+    margin: 39px 0 0 581px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-weight{
+    margin: 20px 53px 0 0;
+    height: 62px;
+}
