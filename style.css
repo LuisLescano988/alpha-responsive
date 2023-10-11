@@ -1,6 +1,6 @@
 *,
- ::after,
- ::before {
+::after,
+::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,22 +24,189 @@ a {
 li {
     list-style: none;
     height: 17px;
-    width:fit-content;
+    width: fit-content;
     margin-right: 36px;
 }
 
-.ul-nav{
+.ul-nav {
     display: flex;
     flex-direction: row;
 }
 
-.nav-bar{
-    margin: 39px 0 0 581px;
+.nav-bar {
+    margin: 39px 311px 0 581px;
     display: flex;
     flex-direction: row;
+    position: absolute;
 }
 
-.logo-weight{
-    margin: 20px 53px 0 0;
+.logo-weight {
+    margin: 20px 0 0 390px;
     height: 62px;
+    position: absolute;
+}
+
+.yellow-bg {
+    background-color: #FFD900;
+    height: 760px;
+    width: 590px;
+    margin-left: 1330px;
+    border-top-left-radius: 2rem;
+}
+
+.web-title-container {
+    position: absolute;
+    margin: 203px 0 0 390px;
+}
+
+.web-title {
+    font-size: 47px;
+    max-width: 437px;
+}
+
+.web-title-intro {
+    font-size: 16px;
+    max-width: 459px;
+    max-height: 78px;
+    margin-top: 26px;
+}
+
+.pink-button {
+    background-color: #DD71C6;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 26px;
+    width: 215px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    padding: 10px 14px 10px 14px;
+}
+
+.counter-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 41px 36px 41px 36px;
+    margin-left: 901px;
+    margin-top: 177px;
+    width: 629px;
+    height: 321px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.counter-title {
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    height: 29px;
+}
+
+.counter-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 53px;
+    margin-right: 40px;
+    z-index: 2;
+}
+
+.counter-time-title {
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: rgba(0, 131, 211, 1);
+    width: 68px;
+    height: 32px;
+}
+
+.counter-time {
+    font-size: 50px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    width: 50px;
+    height: 89px;
+    margin-top: 36px;
+}
+
+.pink-section {
+    background-color: #DD71C6;
+    height: 570px;
+    width: 1920px;
+}
+
+.pink-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pink-cards {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items:center;
+    background-color:white;
+    height: 249px;
+    width: 264px;
+    border-radius: 1rem;
+    margin-right: 48px;
+    margin-top:99px;
+}
+
+.pink-images {
+    height: 47px;
+    width: 47px;
+}
+
+.image-container {
+    padding-top: 16px;
+}
+
+.pink-card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.pink-card-numbers {
+    font-size: xx-large;
+    margin: 22px 0 22px 0;
+    padding: 9px 0 9px 0;
+}
+
+.pink-card-symbol {
+    font-size: xx-large;
+    margin: 22px 0 0 0.5rem;
+    padding: 9px 0 9px 0;
+    color: #C4C4C4;
+}
+.pink-card-text {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.yellow-button {
+    background-color: #FFD900;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    width: 215px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    padding: 10px 14px 10px 14px;
+    margin-left: 43%;  
+    margin-top: 3rem; 
 }
