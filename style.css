@@ -28,6 +28,10 @@ li {
     margin-right: 36px;
 }
 
+.header-container {
+    background-color: #F9F9F9;
+}
+
 .ul-nav {
     display: flex;
     flex-direction: row;
@@ -38,6 +42,10 @@ li {
     display: flex;
     flex-direction: row;
     position: absolute;
+}
+
+.nav-bar a {
+    color: black;
 }
 
 .logo-weight {
@@ -60,8 +68,15 @@ li {
 }
 
 .web-title {
-    font-size: 47px;
-    max-width: 437px;
+    font-size: 45px;
+    font-family: "Libre Baskerville";
+    font-weight: 400;
+    width: 437px;
+    height: 272px;
+}
+
+.web-title span {
+    color: #DD71C6;
 }
 
 .web-title-intro {
@@ -95,7 +110,6 @@ li {
     width: 629px;
     height: 281px;
     border-radius: 2.5rem;
-    background-color: #FFFFFF7D;
     backdrop-filter: blur(20px);
 }
 
@@ -145,7 +159,7 @@ li {
 .pink-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin-left: 390px;
 }
 
 .pink-cards {
@@ -423,7 +437,7 @@ li {
 
 .consultation-section li {
     height: auto;
-    width:400px;
+    width: 400px;
     list-style: inside;
     list-style-position: outside;
     line-height: 1.5rem;
@@ -433,4 +447,148 @@ li {
     font-family: "Montserrat";
     font-weight: 400;
     color: rgba(51, 51, 51, 1);
+}
+
+.faq-section {
+    width: 1920px;
+    height: 1446px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 390px;
+}
+
+.faq-section h2 {
+    font-size: 32px;
+    font-family: "Libre Baskerville";
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    width: 500px;
+    height: 51px;
+    margin-top: 98px;
+}
+
+.faq-section div {
+    margin-top: 64px;
+    margin-bottom: 23px;
+}
+
+.faq-section p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    width: 1135px;
+    height: 64px;
+    padding: 20px 15px 20px 15px;
+    margin-bottom: 30px;
+    background-color: #F9F9F9;
+    border-radius: 1.5rem;
+}
+
+.faq-section button {
+    background-color: #DD71C6;
+    border: none;
+    margin-left: 463px;
+    color: rgba(255, 255, 255, 1);
+    width: 215px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    padding: 10px 14px 10px 14px;
+}
+
+.faq-section img {
+    margin-right: 25px;
+    height: 20px;
+    width: 20px;
+}
+
+footer {
+    height: 590px;
+    width: 1920px;
+    background-color: #F9F9F9;
+}
+
+.footer-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 105px;
+    margin-left: 390px;
+}
+
+.footer-left {
+    width: 443px;
+
+}
+
+.footer-left p {
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    width: 441px;
+    height: auto;
+    margin-top: 33px;
+    margin-bottom: 45px;
+}
+
+.footer-left h6 {
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    width: 441px;
+    height: 26px;
+    margin-bottom: 27px;
+}
+
+.footer-left h6 img {
+    height: 20px;
+    width: 14px;
+    margin-right: 16px;
+}
+
+.social-media {
+    margin-top: 72px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+    margin-left: 268px;
+}
+
+.footer-right h3 {
+    font-size: 24px;
+    font-family: "Libre Baskerville";
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    width: auto;
+    height: 38px;
+    margin-bottom: 25px;
+}
+
+.copyright {
+    position: absolute;
+    margin-top: 412px;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    width: 419px;
+    height: 26px;
+}
+
+footer h4 {
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    width: 419px;
+    height: 26px;
+    margin-top: 20px;
 }
