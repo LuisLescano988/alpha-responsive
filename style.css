@@ -89,18 +89,19 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 41px 36px 41px 36px;
-    margin-left: 901px;
+    padding: 41px 0px 41px 36px;
+    margin-left: 908px;
     margin-top: 177px;
     width: 629px;
-    height: 321px;
+    height: 281px;
+    border-radius: 2.5rem;
+    background-color: #FFFFFF7D;
+    backdrop-filter: blur(20px);
 }
 
 .counter {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .counter-title {
@@ -111,22 +112,15 @@ li {
     height: 29px;
 }
 
-.counter-col {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin-top: 53px;
-    margin-right: 40px;
-    z-index: 2;
-}
-
 .counter-time-title {
     font-size: 18px;
     font-family: "Montserrat";
     font-weight: 500;
+    text-align: center;
+    letter-spacing: .31rem;
+    margin: 43px 39px 0 0;
     color: rgba(0, 131, 211, 1);
-    width: 68px;
+    width: auto;
     height: 32px;
 }
 
@@ -134,8 +128,10 @@ li {
     font-size: 50px;
     font-family: "Montserrat";
     font-weight: 500;
+    left: 5px;
+    letter-spacing: 0;
     color: rgba(51, 51, 51, 1);
-    width: 50px;
+    width: auto;
     height: 89px;
     margin-top: 36px;
 }
@@ -155,14 +151,13 @@ li {
 .pink-cards {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    align-items:center;
-    background-color:white;
+    align-items: center;
+    background-color: white;
     height: 249px;
     width: 264px;
     border-radius: 1rem;
     margin-right: 48px;
-    margin-top:99px;
+    margin-top: 99px;
 }
 
 .pink-images {
@@ -191,6 +186,7 @@ li {
     padding: 9px 0 9px 0;
     color: #C4C4C4;
 }
+
 .pink-card-text {
     font-size: 18px;
     font-weight: 400;
@@ -207,6 +203,234 @@ li {
     font-weight: 600;
     font-family: 'Montserrat';
     padding: 10px 14px 10px 14px;
-    margin-left: 43%;  
-    margin-top: 3rem; 
+    margin-left: 43%;
+    margin-top: 4rem;
+}
+
+.sky-blue {
+    width: 1920px;
+    height: 799px;
+    background-color: #73C3F4;
+    color: #FFFFFF;
+}
+
+.sky-blue-container {
+    margin-left: 390px;
+}
+
+.sky-blue h2 {
+    font-size: 32px;
+    font-family: "Libre Baskerville";
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    width: 491px;
+    height: 51px;
+}
+
+.sky-blue-text {
+    position: absolute;
+    margin-top: 82px;
+}
+
+.sky-blue-text h2 {
+    width: 491;
+    height: 51px;
+    margin-top: 52px;
+}
+
+.sky-blue-text p {
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    width: 388px;
+    height: 130px;
+    margin-top: 15px;
+}
+
+.sky-blue-text button {
+    background-color: #DD71C6;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    width: 215px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    padding: 10px 14px 10px 14px;
+    margin-top: 37px;
+}
+
+.sky-blue-image {
+    position: absolute;
+    margin: 98px 0 0 590px;
+    z-index: 2;
+}
+
+.circle-container {}
+
+.back-circle {
+    position: absolute;
+    border: 27px solid white;
+    border-bottom: 0;
+    border-top-left-radius: 222px;
+    border-top-right-radius: 222px;
+    height: 202px;
+    width: 404px;
+    margin: 169px 0 -202px 80px;
+    z-index: -1;
+}
+
+.back-circle2 {
+    position: absolute;
+    border: 27px solid white;
+    border-top: 0;
+    border-bottom-left-radius: 222px;
+    border-bottom-right-radius: 222px;
+    height: 202px;
+    width: 404px;
+    margin: 369px 0 -202px 80px;
+}
+
+.help-section {
+    width: 1920px;
+    height: 794px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help-section h3 {
+    font-size: 32px;
+    font-family: "Libre Baskerville";
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    width: 288px;
+    height: 51px;
+    margin-top: 89px;
+    margin-bottom: 20px;
+}
+
+.help-section p {
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    width: 1140px;
+    height: 78px;
+    margin-bottom: 20px;
+}
+
+.help-section button {
+    background-color: #DD71C6;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 14px;
+    width: 215px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    padding: 10px 14px 10px 14px;
+}
+
+.help-section img {
+    margin-top: auto;
+    justify-self: flex-end;
+}
+
+.consultation-section {
+    height: 796px;
+    width: 1920px;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.consultation-section h3 {
+    font-size: 32px;
+    font-family: "Libre Baskerville";
+    font-weight: 400;
+    width: 756px;
+    height: 51px;
+    margin-top: 102px;
+    margin-bottom: 64px;
+}
+
+.consultation-section span {
+    color: #DD71C6;
+}
+
+.consultation-card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.consultation-card {
+    height: 391px;
+    width: auto;
+    background-color: #FFFFFF;
+    border-radius: 1.5rem;
+    margin: 0 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 0 0 0;
+}
+
+.consultation-section button {
+    background-color: #DD71C6;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 88px;
+    width: 215px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    padding: 10px 14px 10px 14px;
+}
+
+.consultation-section h2 {
+    font-size: 24px;
+    font-family: "Libre Baskerville";
+    font-weight: 400;
+    color: rgba(221, 113, 198, 1);
+    width: 280px;
+    height: 41px;
+    text-align: center;
+}
+
+.consultation-section h4 {
+    font-size: 24px;
+    font-family: "Libre Baskerville";
+    font-weight: 400;
+    color: rgba(0, 131, 211, 1);
+    width: 280px;
+    height: 41px;
+    text-align: center;
+}
+
+.consultation-section hr {
+    width: 384px;
+    margin: 39px 0 39px 0;
+}
+
+.consultation-section ul {
+    height: auto;
+}
+
+.consultation-section li {
+    height: auto;
+    width:400px;
+    list-style: inside;
+    list-style-position: outside;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+    margin-left: 5.5rem;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
 }
