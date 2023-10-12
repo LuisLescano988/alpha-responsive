@@ -37,6 +37,15 @@ li {
     flex-direction: row;
 }
 
+.header-circle {
+    position: absolute;
+    border: 27px solid white;
+    border-radius: 100%;
+    height: 386px;
+    width: 386px;
+    margin: 186px 1925px 0 -91px;
+}
+
 .nav-bar {
     margin: 39px 311px 0 581px;
     display: flex;
@@ -97,6 +106,13 @@ li {
     font-weight: 600;
     font-family: 'Montserrat';
     padding: 10px 14px 10px 14px;
+}
+
+.pink-left-circle {
+    position: absolute;
+    height: 185px;
+    width: 185px;
+    margin: 156px 0 0 118px;
 }
 
 .counter-container {
@@ -228,6 +244,20 @@ li {
     color: #FFFFFF;
 }
 
+.sky-blue-left-circle {
+    position: absolute;
+    border: 27px solid white;
+    border-radius: 100%;
+    height: 271px;
+    width: 271px;
+    margin: 350px 1925px 0 -136px;
+}
+
+.sky-blue-right-circle {
+    position: absolute;
+    margin: 204px 0 0 1444px;
+}
+
 .sky-blue-container {
     margin-left: 390px;
 }
@@ -280,8 +310,6 @@ li {
     margin: 98px 0 0 590px;
     z-index: 2;
 }
-
-.circle-container {}
 
 .back-circle {
     position: absolute;
@@ -360,6 +388,31 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.consultation-left-circle {
+    position: absolute;
+    border: 27px solid white;
+    border-radius: 100%;
+    height: 386px;
+    width: 386px;
+    margin: 186px 1727px 0 -193px;
+}
+
+.consultation-large-circle {
+    position: absolute;
+    border: 27px solid white;
+    border-radius: 100%;
+    height: 279px;
+    width: 279px;
+    margin: 31px 0 0 1530px;
+}
+
+.consultation-small-circle {
+    position: absolute;
+    height: 158px;
+    width: 158px;
+    margin: 456px 0 0 1430px;
 }
 
 .consultation-section h3 {
@@ -457,6 +510,31 @@ li {
     margin-left: 390px;
 }
 
+.faq-left-circle {
+    position: absolute;
+    border: 27px solid #F9F9F9;
+    border-radius: 100%;
+    height: 410px;
+    width: 410px;
+    margin: 728px 0 308px -580px;
+}
+
+.faq-right-circle {
+    position: absolute;
+    border: 27px solid #F9F9F9;
+    border-radius: 100%;
+    height: 269px;
+    width: 269px;
+    margin: 147px 0 0 1200px;
+}
+
+.faq-svg-circle {
+    position: absolute;
+    height: 124px;
+    width: 124px;
+    margin: 1051px 0 0 1200px;
+}
+
 .faq-section h2 {
     font-size: 32px;
     font-family: "Libre Baskerville";
@@ -500,7 +578,7 @@ li {
     padding: 10px 14px 10px 14px;
 }
 
-.faq-section img {
+.faq-section-img {
     margin-right: 25px;
     height: 20px;
     width: 20px;
@@ -546,7 +624,7 @@ footer {
     margin-bottom: 27px;
 }
 
-.footer-left h6 img {
+.footer-left-h6-img {
     height: 20px;
     width: 14px;
     margin-right: 16px;
@@ -588,7 +666,22 @@ footer h4 {
     font-family: "Montserrat";
     font-weight: 400;
     color: rgba(51, 51, 51, 1);
-    width: 419px;
+    width: auto;
     height: 26px;
     margin-top: 20px;
+    margin-right: 50px;
+}
+
+.footer-svg-circle {
+    position: absolute;
+    margin: 200px 0 0 80px;
+}
+
+.footer-right-circle {
+    position: absolute;
+    border: 27px solid white;
+    border-radius: 100%;
+    height: 368px;
+    width: 368px;
+    margin: 165px 0 0 1652px;
 }
