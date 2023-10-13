@@ -14,6 +14,25 @@
 <body>
     <header>
         <img class="logo-weight" src="assets/Group 45.svg" alt="">
+        <details class="menu">
+            <summary>
+                <hr>
+                <hr>
+                <hr>
+            </summary>
+            <div class="list-menu">
+                <ul>
+                    <li>About Us</li>
+                    <li>Book Online</li>
+                    <li>Weight Loss Programs</li>
+                    <li>Real Patient Stories</li>
+                    <li>Locations</li>
+                    <li>Blog</li>
+                    <li>Shop</li>
+                    <li>Subscription</li>
+                </ul>
+            </div>
+        </details>
         <div class="header-container">
             <p class="header-circle"></p>
             <nav class="nav-bar">
@@ -38,7 +57,8 @@
                     No credit card or insurance is required.
                 </div>
                 <div class="web-title-intro-mobile">
-                    There are limited spots due to the Physicians schedule and the high demand for service. No credit card or insurance required.
+                    There are limited spots due to the Physicians schedule and the high demand for service. No credit
+                    card or insurance required.
                 </div>
                 <button class="pink-button">Book my apointment</button>
             </div>
@@ -47,16 +67,16 @@
                 <h5 class="counter-title">Your offer ends in:</h5>
                 <div class="counter">
                     <div class="counter-time-title">DAYS
-                        <h2 class="counter-time">00</h2>
+                        <h2 class="counter-time" id="days">00</h2>
                     </div>
                     <div class="counter-time-title">HOURS
-                        <h2 class="counter-time">16</h2>
+                        <h2 class="counter-time" id="hours">24</h2>
                     </div>
                     <div class="counter-time-title">MINUTES
-                        <h2 class="counter-time">29</h2>
+                        <h2 class="counter-time" id="minutes">59</h2>
                     </div>
                     <div class="counter-time-title">SECONDS
-                        <h2 class="counter-time">27</h2>
+                        <h2 class="counter-time" id="seconds">57</h2>
                     </div>
                 </div>
             </div>
@@ -145,11 +165,11 @@
                 For those of us who struggle with our weight it’s easy to lose hope. We have seen
                 so many tricks, gimmicks and weight loss programs that simply do not work for us.
                 They want us to eat like a pigeon, avoid all the things we love to eat and work out
-                till we cry. 
+                till we cry.
                 <br class="help-break">
                 <br class="help-break">
                 <br class="help-break">
-                 We are here to tell you that it doesn’t have to be that way. There is
+                We are here to tell you that it doesn’t have to be that way. There is
                 hope! Technology has advanced rapidly in recent years and now, with proper guidance...
             </p>
             <p class="second-paragraph-help">
@@ -196,19 +216,87 @@
             <span class="faq-left-circle"></span>
             <span class="faq-right-circle"></span>
             <img class="faq-svg-circle" src="/assets//Ellipse 35.svg" alt="">
-            <div>
-                <p>Why is it free? <a href=""><img class="faq-section-img" src="/assets/Vector.svg" alt=""></a></p>
-                <p>Do I need this if I’ve had my yearly medical check? What is the difference?<a href=""><img class="faq-section-img" src="/assets/Vector.svg" alt=""></a></p>
-                <p>Can I bring another person to the appointment?<a href=""><img class="faq-section-img" src="/assets/Vector.svg" alt=""></a></p>
-                <p>How long does it take?<a href=""><img class="faq-section-img" src="/assets/Vector.svg" alt=""></a></p>
-                <p>What if I have to cancel or if I’m not sure I’ll be able to make it?<a href=""><img class="faq-section-img" src="/assets/Vector.svg" alt=""></a></p>
-                <p>Do I need to bring anything with me?<a href=""><img class="faq-section-img" src="/assets/Vector.svg" alt=""></a></p>
-                <p>What if I don’t have insurance?<a href=""><img class="faq-section-img" src="/assets/Vector.svg" alt=""></a></p>
-                <p>Do the weight loss programs you offer work?<a href=""><img class="faq-section-img" src="/assets/Vector.svg" alt=""></a></p>
-                <p>What’s the catch?<a href=""><img class="faq-section-img" src="/assets/Vector.svg" alt=""></a></p>
-                <p>Will I have to exhaust myself in the gym to make it work?<a href=""><img class="faq-section-img" src="/assets/Vector.svg"
-                            alt=""></a></p>
-                <p>Where are you located?<a href=""><img class="faq-section-img" src="/assets/Vector.svg" alt=""></a></p>
+            <div >
+                <img class="faq-section-img" src="/assets/Vector.svg" alt="">
+                <details class="faq-section-details">
+                    <summary>Why is it free?</summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perferendis quae dolores sit
+                    ratione eius, ducimus sint ipsa deleniti dolore exercitationem, aspernatur, magnam voluptas rem nisi
+                    debitis vel natus cumque!
+                </details>
+                <img class="faq-section-img" src="/assets/Vector.svg" alt="">
+                <details class="faq-section-details">
+                    <summary>Do I need this if I’ve had my yearly medical check? What is the difference?</summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perferendis quae dolores sit
+                    ratione eius, ducimus sint ipsa deleniti dolore exercitationem, aspernatur, magnam voluptas rem nisi
+                    debitis vel natus cumque!
+                </details>
+                <img class="faq-section-img" src="/assets/Vector.svg" alt="">
+                <details class="faq-section-details">
+                    <summary>Can I bring another person to the appointment?</summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perferendis quae dolores sit
+                    ratione eius, ducimus sint ipsa deleniti dolore exercitationem, aspernatur, magnam voluptas rem nisi
+                    debitis vel natus cumque!
+                </details>
+                <img class="faq-section-img" src="/assets/Vector.svg" alt="">
+                <details class="faq-section-details">
+                    <summary>How long does it take?
+                    </summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perferendis quae dolores sit
+                    ratione eius, ducimus sint ipsa deleniti dolore exercitationem, aspernatur, magnam voluptas rem nisi
+                    debitis vel natus cumque!
+                </details>
+                <img class="faq-section-img" src="/assets/Vector.svg" alt="">
+                <details class="faq-section-details">
+                    <summary>What if I have to cancel or if I’m not sure I’ll be able to make it?</summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perferendis quae dolores sit
+                    ratione eius, ducimus sint ipsa deleniti dolore exercitationem, aspernatur, magnam voluptas rem nisi
+                    debitis vel natus cumque!
+                </details>
+                <img class="faq-section-img" src="/assets/Vector.svg" alt="">
+                <details class="faq-section-details">
+                    <summary>Do I need to bring anything with me?</summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perferendis quae dolores sit
+                    ratione eius, ducimus sint ipsa deleniti dolore exercitationem, aspernatur, magnam voluptas rem nisi
+                    debitis vel natus cumque!
+                </details>
+                <img class="faq-section-img" src="/assets/Vector.svg" alt="">
+                <details class="faq-section-details">
+                    <summary>What if I don’t have insurance?</summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perferendis quae dolores sit
+                    ratione eius, ducimus sint ipsa deleniti dolore exercitationem, aspernatur, magnam voluptas rem nisi
+                    debitis vel natus cumque!
+                </details>
+                <img class="faq-section-img" src="/assets/Vector.svg" alt="">
+                <details class="faq-section-details">
+                    <summary>Do the weight loss programs you offer work?</summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perferendis quae dolores sit
+                    ratione eius, ducimus sint ipsa deleniti dolore exercitationem, aspernatur, magnam voluptas rem nisi
+                    debitis vel natus cumque!
+                </details>
+                <img class="faq-section-img" src="/assets/Vector.svg" alt="">
+                <details class="faq-section-details">
+                    <summary>What’s the catch?</summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perferendis quae dolores sit
+                    ratione eius, ducimus sint ipsa deleniti dolore exercitationem, aspernatur, magnam voluptas rem nisi
+                    debitis vel natus cumque!
+                </details>
+                <img class="faq-section-img" src="/assets/Vector.svg" alt="">
+                <details class="faq-section-details">
+                    <summary>Will I have to exhaust myself in the gym to make it work?</summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Laboriosam perferendis quae dolores sit
+                    ratione eius, ducimus sint ipsa deleniti dolore exercitationem, aspernatur, magnam voluptas rem nisi
+                    debitis vel natus cumque!
+                </details>
+                <img class="faq-section-img" src="/assets/Vector.svg" alt="">
+                <details class="faq-section-details">
+                    <summary>Where are you located?
+                    </summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perferendis quae dolores sit
+                    ratione eius, ducimus sint ipsa deleniti dolore exercitationem, aspernatur, magnam voluptas rem nisi
+                    debitis vel natus cumque!
+                </details>
             </div>
             <button class="pink-button">Book my appointment</button>
         </section>
@@ -263,6 +351,7 @@
     </footer>
     <div></div>
     <script src="script.js"></script>
+    <script src="./counter.js"></script>
 </body>
 
 </html>

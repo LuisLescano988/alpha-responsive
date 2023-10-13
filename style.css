@@ -32,6 +32,44 @@ li {
     background-color: #F9F9F9;
 }
 
+.menu {
+    position: absolute;
+    visibility: hidden;
+    height: 17.6px;
+    width: 25px;
+    margin: 24px 0 0 320px;
+}
+
+.menu summary {
+    list-style: none;
+}
+
+.list-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color:#FFD900;
+    margin: 0 0 0 -120px;
+    padding: 8px;
+    border: 1px solid #ffea76;
+    border-radius: 1rem;
+    z-index: 4;
+}
+
+.list-menu ul li {
+    color: black;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.menu hr {
+    border: 1px solid #DD71C6;
+    margin: 5px 0 0 0;
+    border-radius: 2px;
+}
+
 .ul-nav {
     display: flex;
     flex-direction: row;
@@ -571,19 +609,22 @@ li {
     margin-bottom: 23px;
 }
 
-.faq-section p {
+.faq-section-details {
     display: flex;
-    justify-content: space-between;
     font-size: 16px;
     font-family: "Montserrat";
     font-weight: 500;
     color: rgba(51, 51, 51, 1);
     width: 1135px;
-    height: 64px;
+    height: auto;
     padding: 20px 15px 20px 15px;
     margin-bottom: 30px;
     background-color: #F9F9F9;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
+}
+
+.faq-section-details summary {
+    list-style: none;
 }
 
 .faq-section button {
@@ -600,7 +641,9 @@ li {
 }
 
 .faq-section-img {
-    margin-right: 25px;
+    position: absolute;
+    justify-self: flex-end;
+    margin: 20px 0 0 1060px;
     height: 20px;
     width: 20px;
 }
