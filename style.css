@@ -63,6 +63,15 @@ li {
     position: absolute;
 }
 
+.spot-available {
+    font-size: 12px;
+    visibility: hidden;
+}
+
+.spot-available span {
+    color: #DD71C6;
+}
+
 .yellow-bg {
     background-color: #FFD900;
     height: 760px;
@@ -73,7 +82,7 @@ li {
 
 .web-title-container {
     position: absolute;
-    margin: 203px 0 0 390px;
+    margin: 203px 0 0 390px;        
 }
 
 .web-title {
@@ -95,6 +104,10 @@ li {
     margin-top: 26px;
 }
 
+.web-title-intro-mobile {
+    visibility: hidden;
+}
+
 .pink-button {
     background-color: #DD71C6;
     border: none;
@@ -112,7 +125,7 @@ li {
     position: absolute;
     height: 185px;
     width: 185px;
-    margin: 156px 0 0 118px;
+    margin: 156px 0 0 67px;
 }
 
 .counter-container {
@@ -126,6 +139,7 @@ li {
     width: 629px;
     height: 281px;
     border-radius: 2.5rem;
+    background: linear-gradient(270deg, transparent, white);
     backdrop-filter: blur(20px);
 }
 
@@ -157,7 +171,7 @@ li {
 .counter-time {
     font-size: 50px;
     font-family: "Montserrat";
-    font-weight: 500;
+    font-weight: 700;
     left: 5px;
     letter-spacing: 0;
     color: rgba(51, 51, 51, 1);
@@ -183,8 +197,8 @@ li {
     flex-direction: column;
     align-items: center;
     background-color: white;
-    height: 249px;
-    width: 264px;
+    height: 264px;
+    width: 249px;
     border-radius: 1rem;
     margin-right: 48px;
     margin-top: 99px;
@@ -204,16 +218,15 @@ li {
     flex-direction: row;
 }
 
-.pink-card-numbers {
+.pink-card-numbers,
+.pink-card-symbol {
     font-size: xx-large;
     margin: 22px 0 22px 0;
     padding: 9px 0 9px 0;
 }
 
 .pink-card-symbol {
-    font-size: xx-large;
-    margin: 22px 0 0 0.5rem;
-    padding: 9px 0 9px 0;
+    margin-left: 16px;
     color: #C4C4C4;
 }
 
@@ -233,7 +246,7 @@ li {
     font-weight: 600;
     font-family: 'Montserrat';
     padding: 10px 14px 10px 14px;
-    margin-left: 43%;
+    margin-left: 853px;
     margin-top: 4rem;
 }
 
