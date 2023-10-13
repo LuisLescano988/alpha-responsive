@@ -82,7 +82,7 @@ li {
 
 .web-title-container {
     position: absolute;
-    margin: 203px 0 0 390px;        
+    margin: 203px 0 0 390px;
 }
 
 .web-title {
@@ -376,7 +376,8 @@ li {
     margin-bottom: 20px;
 }
 
-.help-section button {
+.help-button,
+.help-button-mobile {
     background-color: #DD71C6;
     border: none;
     color: rgba(255, 255, 255, 1);
@@ -389,9 +390,17 @@ li {
     padding: 10px 14px 10px 14px;
 }
 
+.help-button-mobile {
+    display: none;
+}
+
 .help-section img {
     margin-top: auto;
     justify-self: flex-end;
+}
+
+.help-break {
+    display: none;
 }
 
 .consultation-section {
@@ -434,8 +443,7 @@ li {
     font-weight: 400;
     width: 756px;
     height: 51px;
-    margin-top: 102px;
-    margin-bottom: 64px;
+    margin: 102px 0 64px 0;
 }
 
 .consultation-section span {
@@ -635,6 +643,10 @@ footer {
     width: 441px;
     height: 26px;
     margin-bottom: 27px;
+}
+
+.footer-break {
+    display: none;
 }
 
 .footer-left-h6-img {

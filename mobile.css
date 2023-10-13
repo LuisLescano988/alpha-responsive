@@ -1,0 +1,419 @@
+@media (max-width: 375px) {
+
+    body {
+        width: 375px;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-bar,
+    .header-circle {
+        visibility: hidden;
+    }
+
+    .web-title-container {
+        width: 281px;
+        height: 192px;
+        margin: 102px 0 0 0;
+    }
+
+    .web-title {
+        text-align: center;
+        font-size: 30px;
+        font-family: "Libre Baskerville";
+        font-weight: 400;
+        line-height: 160%;
+        width: 281px;
+        height: 192px;
+    }
+
+    .yellow-bg {
+        margin-left: 187px;
+        width: 188px;
+        height: 768px;
+    }
+
+    .header-container {
+        width: 375px;
+    }
+
+    .logo-weight {
+        margin: 18px 0 0 0;
+        height: 40px;
+        width: 88.91px;
+    }
+
+    .spot-available {
+        text-align: center;
+        width: 281px;
+        height: 12px;
+        visibility: visible;
+        margin: 19px 0 0 0;
+    }
+
+    .counter-container {
+        width: 281px;
+        height: 159px;
+        margin: 351px 0 0 0;
+        border-radius: 1rem;
+        padding: 26px 16px 0 36px;
+    }
+
+    .counter {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 26px 36px 26px 36px;
+        border-radius: 1rem;
+    }
+
+    .counter-title {
+        font-size: 12px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        height: 19px;
+    }
+
+    .counter-time-title {
+        font-size: 8px;
+        font-family: "Montserrat";
+        font-weight: 500;
+        text-align: center;
+        margin: 20px 15px 0 0;
+        color: rgba(0, 131, 211, 1);
+        width: auto;
+        letter-spacing: 3px;
+        height: 14px;
+    }
+
+    .counter-time {
+        font-size: 18px;
+        font-family: "Montserrat";
+        font-weight: 500;
+        left: 5px;
+        color: rgba(51, 51, 51, 1);
+        width: auto;
+        height: 32px;
+        margin-top: 19px;
+    }
+
+    .web-title-intro-mobile {
+        visibility: visible;
+        margin: 107px 0 43px 0;
+        font-size: 16px;
+        width: 281px;
+    }
+
+    .pink-button {
+        margin-left: 33px;
+    }
+
+    .pink-section {
+        max-width: 375px;
+        padding: 57px 0 0 0;
+    }
+
+    .pink-left-circle {
+        width: 125px;
+        height: 125px;
+        margin: 265px 0 0 -71px;
+    }
+
+    .pink-container {
+        margin: 0 0 0 47px;
+        display: grid;
+        grid-template-columns: 134px 134px;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
+    .pink-cards {
+        width: 134px;
+        height: 157px;
+        margin: 0 0 0 0;
+    }
+
+    .pink-images {
+        width: 24px;
+        height: 24px;
+        margin: 15px 0 0 0;
+    }
+
+    .pink-card-numbers,
+    .pink-card-symbol {
+        font-size: 18px;
+        padding: 0 0 0 0;
+        margin: 6px 4px 0 0;
+    }
+
+    .pink-card-text {
+        font-size: 12px;
+        width: 127px;
+    }
+
+    .pink-card-container {
+        height: 32px;
+        margin: 0 0 6px 0;
+    }
+
+    .yellow-button {
+        margin: 28px 0 0 94px;
+        font-size: 16px;
+        width: 215px;
+    }
+
+    .sky-blue {
+        flex-direction: column;
+        width: 375px;
+        height: 1100px;
+    }
+
+    .sky-blue-container {
+        margin: 0;
+    }
+
+    .sky-blue-left-circle {
+        width: 336px;
+        height: 336px;
+        margin: 54px 0 0 298px;
+        opacity: 15%;
+        z-index: 0;
+    }
+
+    .sky-blue-text {
+        margin: 74px 0 0 47px;
+    }
+
+    .sky-blue h2 {
+        font-size: 24px;
+        width: 281px;
+        height: auto;
+        margin: 0 0 26px 0;
+    }
+
+    .sky-blue p {
+        font-size: 14px;
+        font-weight: 500;
+        width: 281px;
+        height: 136px;
+        margin: 0 0 0 0;
+        letter-spacing: 0.2px;
+    }
+
+    .sky-blue-text button {
+        margin: 28px 0 0 27px;
+        padding: 0;
+    }
+
+    .sky-blue-image {
+        margin: 607px 0 0 20px;
+    }
+
+    .sky-blue-image img {
+        height: 344px;
+        width: 274px;
+    }
+
+    .back-circle {
+        width: 241px;
+        height: 125px;
+        margin: 102px 0 0 53.55px;
+    }
+
+    .back-circle2 {
+        width: 241px;
+        height: 121px;
+        margin: 224px 0 0 53.55px;
+    }
+
+    .sky-blue-right-circle {
+        margin: 598px 0 0 262px;
+    }
+
+    .help-section {
+        width: 375px;
+        height: 1337px;
+        margin: 0;
+    }
+
+    .help-section h3 {
+        font-size: 24px;
+        width: 281px;
+    }
+
+    .help-section p {
+        width: 281px;
+        line-height: 160%;
+        letter-spacing: 0.1px;
+    }
+
+    .help-section img {
+        width: 375px;
+        height: 249px;
+        content: url(/images/help-mobile.png);
+        margin: -679px 0 0 0;
+    }
+
+    .second-paragraph-help {
+        position: absolute;
+        margin: 888px 0 0 0;
+    }
+
+    .help-section button {
+        margin: 975px 0 0 0;
+    }
+    
+    .help-break {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .help-button {
+        display: none;
+    }
+
+    .help-button-mobile {
+        display: block;
+    }
+
+    .consultation-section {
+        width: 375px;
+        height: 997px;
+    }
+
+    .consultation-section h3 {
+        margin: 39px 0 0 47px;
+        height: 114px;
+        width: 281px;
+    }
+
+    .consultation-card-container {
+        flex-direction: column;
+    }
+
+    .consultation-card {
+        height: 295px;
+        width: 281px;
+        margin: 51px 0 0 0;
+    }
+
+    .consultation-section button {
+        margin: 48px 0 0 0;
+    }
+
+    .consultation-section hr{
+        width: 236px;
+        margin: 7px 0 17px 0;
+    }
+
+    .consultation-section h4 {
+        font-size: 18px;
+        height: 31px;
+    }
+
+    .consultation-section li {
+        font-size: 14px;
+        width: 241px;
+        margin: 0 0 20px 15px;
+        line-height: 172.5%;
+    }
+
+    .faq-section {
+        width: 375px;
+        height: 949px;
+        margin: 0 0 0 47px;
+    }
+
+    .faq-section h2 {
+        margin-top: 65px;
+        font-size: 24px;
+        width: 281px;
+        height: 76px;
+    }
+
+    .faq-section p {
+        width: 308px;
+        height: auto;
+        font-size: 14px;
+        padding: 6px 12px 6px 12px;
+        border-radius: 8px;
+        align-items: center;
+    }
+
+    .faq-section-img {
+        height: 6px;
+        width: 12px;
+        margin-right: 5px;
+    }
+
+    footer {
+        width: 375px;
+        height: 1230px;
+    }
+
+    .footer-svg-circle {
+        margin: 526px 0 0 260px;
+    }
+
+    .footer-container {
+        margin: 65px 0 0 20px;
+        flex-direction: column;
+    }
+
+    .footer-left p {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .footer-left-h6-img {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        margin: 0 0 36px -28px;
+        font-size: 14px;
+    }
+
+    .footer-left h6 {
+        width: 257px;
+        margin: 66px 0 0 26px;
+    }
+
+    .footer-break {
+        display: block;
+    }
+
+    .footer-right {
+        margin: 40px 0 0 0;
+        flex-direction: column;
+    }
+
+    .footer-right h3 {
+        font-size: 20px;
+        margin: 20px 0 0 0;
+        margin-bottom: 0;
+    }
+
+    footer h4 {
+        font-size: 14px;
+        height: 22px;
+        margin: 22px 0 0 0;
+    }
+
+    .social-media {
+        position: absolute;
+        margin: 650px 0 0 0;
+    }
+
+    .copyright {
+        margin: 680px 0 0 0;
+        font-size: 14px;
+        width: 253px;
+        height: 44px;
+        line-height: 160%;
+    }
+}
