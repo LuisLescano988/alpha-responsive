@@ -1,4 +1,4 @@
-let hours = 24;
+let hours = 23;
 minutes = 0;
 seconds = 0;
 
