@@ -194,11 +194,7 @@
     }
 
     .sky-blue-left-circle {
-        width: 336px;
-        height: 336px;
-        margin: 54px 0 0 298px;
-        opacity: 15%;
-        z-index: 0;
+        display: none;
     }
 
     .sky-blue-text {
@@ -339,6 +335,12 @@
         line-height: 172.5%;
     }
 
+    .consultation-left-circle,
+    .consultation-large-circle,
+    .consultation-small-circle {
+        display: none;
+    }
+
     .faq-section {
         width: 375px;
         height: auto;
@@ -381,12 +383,17 @@
     }
 
     .footer-svg-circle {
-        margin: 526px 0 0 260px;
+        margin: 526px 0 0 140px;
     }
 
     .footer-container {
         margin: 65px 0 0 20px;
         flex-direction: column;
+        width: 90vw;
+    }
+
+    .footer-left {
+        width: 90vw;
     }
 
     .footer-left p {
@@ -420,6 +427,10 @@
         font-size: 20px;
         margin: 20px 0 0 0;
         margin-bottom: 0;
+    }
+
+    .footer-right-circle {
+        display: none;
     }
 
     footer h4 {

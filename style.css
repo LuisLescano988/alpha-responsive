@@ -572,7 +572,7 @@ li {
     height: 1446px;
     display: flex;
     flex-direction: column;
-    margin-left: 390px;
+    margin-left: auto;
 }
 
 .faq-left-circle {
@@ -757,5 +757,5 @@ footer h4 {
     border-radius: 100%;
     height: 368px;
     width: 368px;
-    margin: 165px 0 0 1652px;
+    margin: 165px 0 0 1552px;
 }
