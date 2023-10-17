@@ -12,9 +12,16 @@ body {
 }
 
 body {
+    padding: 0 0 0 390px;
     font-family: 'Montserrat';
     font-size: 14px;
     font-weight: 400;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+     max-width: fit-content;
 }
 
 a {
@@ -562,7 +569,7 @@ li {
 }
 
 .faq-section {
-    width: 1920px;
+    width: 100vw;
     height: 1446px;
     display: flex;
     flex-direction: column;
