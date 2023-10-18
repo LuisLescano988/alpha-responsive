@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media (max-width: 740px) {
 
     body {
         width: 375px;
@@ -163,6 +163,10 @@
     .pink-card-container {
         height: 32px;
         margin: 0 0 6px 0;
+    }
+
+    .faq-section {
+        padding: 0;
     }
 
     .faq-right-circle {

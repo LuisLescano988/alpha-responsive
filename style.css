@@ -79,6 +79,7 @@ li {
 .ul-nav {
     display: flex;
     flex-direction: row;
+    width: 100vw;
 }
 
 .header-circle {
@@ -119,7 +120,7 @@ li {
 .yellow-bg {
     background-color: #FFD900;
     height: 760px;
-    width: 590px;
+    width: 65%;
     margin-left: 1330px;
     border-top-left-radius: 2rem;
 }
@@ -572,7 +573,7 @@ li {
     height: 1446px;
     display: flex;
     flex-direction: column;
-    margin-left: auto;
+    padding-left: 390px;
 }
 
 .faq-left-circle {
@@ -631,6 +632,7 @@ li {
 
 .faq-section-details summary {
     list-style: none;
+    cursor: pointer;
 }
 
 .faq-section button {
