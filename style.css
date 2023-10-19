@@ -120,7 +120,7 @@ li {
 .yellow-bg {
     background-color: #FFD900;
     height: 760px;
-    width: 65%;
+    width: 44.4%;
     margin-left: 1330px;
     border-top-left-radius: 2rem;
 }
@@ -442,6 +442,7 @@ li {
 .help-section img {
     margin-top: auto;
     justify-self: flex-end;
+    max-width: fit-content;
 }
 
 .help-break {
@@ -573,7 +574,7 @@ li {
     height: 1446px;
     display: flex;
     flex-direction: column;
-    padding-left: 390px;
+    padding:0 0 0 390px;
 }
 
 .faq-left-circle {

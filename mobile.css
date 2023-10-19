@@ -1,12 +1,13 @@
-@media (max-width: 740px) {
+@media (max-width: 750px) {
 
     body {
-        width: 375px;
+        width: 100vw;
     }
 
     .header-container {
         display: flex;
         justify-content: center;
+        width: 100vw;
     }
 
     .nav-bar,
@@ -22,6 +23,7 @@
 
     .menu {
         visibility: visible;
+        margin-left: 85.33%;
     }
 
     .web-title {
@@ -35,19 +37,17 @@
     }
 
     .yellow-bg {
-        margin-left: 187px;
-        width: 188px;
+        margin-left: 50.13%;
+        width: 50%;
         height: 768px;
     }
 
-    .header-container {
-        width: 375px;
-    }
+
 
     .logo-weight {
         margin: 18px 0 0 20px;
         height: 40px;
-        width: 88.91px;
+        width: 23.71%;
     }
 
     .spot-available {
@@ -118,18 +118,21 @@
     }
 
     .pink-section {
-        max-width: 375px;
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         padding: 57px 0 0 0;
     }
 
     .pink-left-circle {
         width: 125px;
         height: 125px;
-        margin: 265px 0 0 -71px;
+        margin: 265px 0 0 -11%;
     }
 
     .pink-container {
-        margin: 0 0 0 47px;
+        margin: 0 0 0 29%;
         display: grid;
         grid-template-columns: 134px 134px;
         grid-column-gap: 20px;
@@ -165,36 +168,32 @@
         margin: 0 0 6px 0;
     }
 
-    .faq-section {
-        padding: 0;
-    }
-
+    .faq-svg-circle,
+    .faq-left-circle,
     .faq-right-circle {
         display: none;
     }
 
-    .faq-svg-circle {
-        display: none;
-    }
-
-    .faq-left-circle {
-        display: none;
+    .faq-section h2 {
+        margin: 0;
     }
 
     .yellow-button {
-        margin: 28px 0 0 84px;
+        margin: 28px 0 0 34.5%;
         font-size: 16px;
         width: 215px;
     }
 
     .sky-blue {
         flex-direction: column;
-        width: 375px;
+        width: 100vw;
         height: 1100px;
     }
 
     .sky-blue-container {
         margin: 0;
+        display: flex;
+        justify-content: center;
     }
 
     .sky-blue-left-circle {
@@ -252,7 +251,7 @@
     }
 
     .help-section {
-        width: 375px;
+        width: 100vw;
         height: 1337px;
         margin: 0;
     }
@@ -269,7 +268,7 @@
     }
 
     .help-section img {
-        width: 375px;
+        width: 100vw;
         height: 249px;
         content: url(/images/help-mobile.png);
         margin: -679px 0 0 0;
@@ -283,7 +282,7 @@
     .help-section button {
         margin: 975px 0 0 0;
     }
-    
+
     .help-break {
         display: block;
         margin-top: 5px;
@@ -298,7 +297,7 @@
     }
 
     .consultation-section {
-        width: 375px;
+        width: 100vw;
         height: 997px;
     }
 
@@ -322,7 +321,7 @@
         margin: 48px 0 0 0;
     }
 
-    .consultation-section hr{
+    .consultation-section hr {
         width: 236px;
         margin: 7px 0 17px 0;
     }
@@ -346,9 +345,10 @@
     }
 
     .faq-section {
-        width: 375px;
+        width: 100vw;
         height: auto;
-        margin: 0 0 0 47px;
+        padding: 0 0 0 29%;
+        justify-content: center;
     }
 
     .faq-section h2 {
@@ -382,7 +382,7 @@
     }
 
     footer {
-        width: 375px;
+        width: 100vw;
         height: 1230px;
     }
 
