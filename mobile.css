@@ -132,7 +132,6 @@
     }
 
     .pink-container {
-        margin: 0 0 0 29%;
         display: grid;
         grid-template-columns: 134px 134px;
         grid-column-gap: 20px;
